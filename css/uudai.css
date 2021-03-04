@@ -1,0 +1,38 @@
+
+.container h3{
+    text-align: center;
+    padding: 15px 0;
+    color: blue;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.container .new-list .new-item{
+    width: 28%;
+    padding: 0;
+    float: left;
+    border: 2px solid rosybrown;
+    margin-right: 4% ;
+}
+.new-item>.h4{
+    font-size: 16px;
+    color: rgb(73, 156, 240);
+}
+#fix{
+    margin-right: 0;
+
+}
+.new-list{
+    margin: 20px;
+}
+.content{
+    text-align: center;
+
+}
+
+
+
+.img{
+    padding-left: 100px;
+}

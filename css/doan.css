@@ -1,0 +1,66 @@
+.mon1,.mon2,.mon3,.mon4,.mon5,.mon6,.mon7,.mon8{
+    width: 80%;
+    padding-left: 400px;
+}
+.mon1>h2{
+    float: left;
+    width: 30%;
+}
+.mon1>img{
+    width: 50%;
+}
+.mon2>h2{
+    float: right;
+    width: 30%;
+}
+.mon2>img{
+    
+    width: 50%;
+}
+.mon3>h2{
+    float: left;
+    width: 30%;
+}
+.mon3>img{
+    width: 50%;
+}
+
+.mon4>h2{
+    float:right;
+    width: 30%;
+}
+.mon4>img{
+    width: 50%;
+}
+
+.mom5>h2{
+    float: left;
+    width: 30%;
+}
+.mon5>img{
+    width: 50%;
+}
+
+.mon6>h2{
+    float:right;
+    width: 30%;
+}
+.mon6>img{
+    width: 50%;
+}
+
+.mom7>h2{
+    float: left;
+    width: 30%;
+}
+.mon7>img{
+    width: 50%;
+}
+
+.mon8>h2{
+    float:right;
+    width: 30%;
+}
+.mon8>img{
+    width: 50%;
+}

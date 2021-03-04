@@ -1,0 +1,332 @@
+.body{
+    
+    margin: 0px;
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000%;
+    position: relative;  
+}
+
+.container header{
+    background-image: url(../image/Gogi-20.jpg);
+    background-size: 100% 100%;
+    height: 100px;
+    padding-bottom: 25%;
+    position: relative;
+    font-variant: small-caps;
+    min-width: 1200px;
+    padding-top: 30px;
+    margin-top: 0;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    border-radius: .125rem;
+    overflow: hidden;
+}
+
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(250, 143, 103);
+    text-decoration: none;
+    height: 50px;
+    font-variant: small-caps;
+    text-align: center;
+    text-shadow: 5px 3px 5px red;
+    font-size: 30px;
+}
+
+.top-right a{
+    text-decoration: none;
+    width: 50px;
+    color: white;
+}
+.top-right a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+.container nav{
+    line-height:40px ;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 10px;
+}
+
+.container nav a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+.container section{
+    width: 100%;
+}
+.container main{
+    min-height: 400px;
+    width: 100%;
+    background-color:rosybrown;
+    float: left;
+}
+.container main>h2{
+    color: white;
+    text-align: center;
+}
+.container footer{
+    text-align: left;
+    padding-top: 20px;
+}
+.footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color:rgb(19, 19, 18);
+    text-align: left;
+    font-variant: small-caps;
+    clear: both;
+    color: #fff;
+}
+
+.container nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.tab-content{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font: inherit;
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+.center{
+    display: block;
+
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.vmenu{
+    
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+
+}
+
+.vmenu a{
+    background: url(../image/tim.png) no-repeat left center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.vmenu a:hover{
+    background: url(../image/icontien.png) no-repeat left center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+/*mã*/
+.menu{
+    padding-left: 50px;
+   
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+
+    text-align: center;
+}
+.menu>ul>li{
+    display:inline-block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: black;
+    padding: 0 10px;
+    line-height: 30px;
+    position: relative;
+}
+.menu>ul>li>a{
+    background-color: white;
+    color: black;
+}
+.menu>ul>li>a:hover{
+    color: rgb(17, 0, 255);
+}
+.menu>ul>li>a{
+    display:block;
+}
+.h2{
+    color: crimson;
+
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: black;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+/*thực đơn*/
+.bibam>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+}
+.bibam>ul>li{
+    display:inline-block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: black;
+    padding: 0 10px;
+    line-height: 30px;
+    position: relative;
+}
+.bibam>ul>li>a:hover{
+    color: yellow;
+}
+.bibam>ul>li>a{
+    display:block;
+}
+.bibam ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: black;
+    box-shadow: 0 0 1px gray;
+}
+.bibam ul ul a{
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+}
+.bibam>ul>li:hover>ul{
+    display: block;
+}
+.bibam ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.thuc-don{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 50px;
+    
+}
+/*ff*/
+.wrap {
+    overflow: hidden;/**/
+    text-align: center;/*căn giữa .col-1, .col-2*/
+}
+.col-1,.col-2 {
+    width: 50%;
+    /*float: left;*/ /*-> dung float thì chỉ có thể căn trái hoặc phải */
+
+    display: inline-block;
+    vertical-align: middle; /* căn giữa các cột theo chiều dọc */
+
+}
+
+.col-1 {
+    background: red;
+    height: 100px;
+}
+.col-2 {
+    background: blue;
+    height: 200px;
+}
+.text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*video*/
+.video{
+    float: left;
+    padding-left:20px ;
+    padding-right: 40px;
+    margin: 50px;
+}
